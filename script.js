@@ -9,7 +9,7 @@ for (let i = 0; i < data.length; i += 1) {
 	newDiv.className = 'item'
 	// create an image element
 	const img = document.createElement('img');
-	// this will change each time we go through the loop. Can you explain why?
+	// this will change each time we go through the loop
 	img.src = data[i].image
 	img.width = 300
 	img.height = 300
