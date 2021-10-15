@@ -152,6 +152,7 @@
             }
 
             function removeItem(name, qty = 0) {
+                console.log(removeItem)
                 for (let i = 0; i < cart.length; i += 1) {
                     if (cart[i].name === name) {
                         if (qty > 0) {
