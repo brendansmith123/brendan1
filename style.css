@@ -9,7 +9,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-  background-color: green;
+    background-color: green;
 }
 
 .page-header ul {
@@ -24,6 +24,10 @@ body {
     padding: 0.5em;
     text-decoration: none;
   }
+ 
+  nav ul a:hover {
+    color: yellow;
+}  
 
 .items {
     width: 80%;
@@ -32,6 +36,30 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
   }
+
+.items img {
+    width: 100%;
+    height: auto;
+  }
+
+.item {
+      border: 5px;
+      border-style: solid;
+      border-color: green;
+  }
+ 
+.item p {
+  text-align: center;
+}
+
+.item button {
+    background-color: blue;
+    color: white;  
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
 
 .items img {
     width: 100%;
